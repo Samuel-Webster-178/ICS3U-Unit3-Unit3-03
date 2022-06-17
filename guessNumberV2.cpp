@@ -29,5 +29,4 @@ int main() {
         // output
         std::cout << "Maybe next time!";
     }
-    std::cout << "\n\nDone." << std::endl;
 }
