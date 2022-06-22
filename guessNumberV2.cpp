@@ -10,7 +10,7 @@
 int main() {
     // I check if the user guessed correctly
     int guess;
-    int chosen_number;
+    int chosenNumber;
 
     // input
     std::cout << "Guess a number between 0-9: ";
@@ -20,9 +20,9 @@ int main() {
     std::random_device rseed;
     std::mt19937 rgen(rseed());
     std::uniform_int_distribution<int> idist(0, 9);
-    chosen_number = idist(rgen);
+    chosenNumber = idist(rgen);
 
-    if (guess == chosen_number) {
+    if (guess == chosenNumber) {
         // output
         std::cout << "You got it!";
     } else {
